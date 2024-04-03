@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #191970;
+  margin: 0;
+}
+
+header {
+  background-color: #DAA520;
+  color: #990000;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 4px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.video {
+  flex: 1;
+}
+
+video {
+  max-width: 100%;
+}
+
+.comments {
+  flex: 1;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.profile {
+  flex: 1;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.video-carousel {
+  background-color: #DAA520;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.carousel-btn {
+  background-color: #191970;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.carousel-btn.prev {
+  float: left;
+}
+
+.carousel-btn.next {
+  float: right;
+}
+
+.video-frame {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+iframe {
+  margin: 0 10px;
+}
+
+.navlink{
+  font-size: 24px;
+  font-weight: bold;
+  color: #191970;
+}
